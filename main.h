@@ -7,6 +7,7 @@
 
 #include "1. Two Sum.h"
 #include "11. Container With Most Water.h"
+#include "35. Search Insert Position.h"
 #include "42. Trapping Rain Water.h"
 
 #endif //LEETCODE_MAIN_H

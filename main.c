@@ -2,7 +2,7 @@
 #include "main.h"
 
 int main() {
-    maxAreaTest();
+    searchInsertTest();
     printf("All Done!\n");
     return 0;
 }

@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include "11. Container With Most Water.h"
+#include "Container With Most Water.h"
 
 #define SOLUTION 2
 
@@ -55,4 +55,9 @@ int maxArea(const int *height, int heightSize) {
 void maxAreaTest(void) {
     int height[] = {1, 1};
     printf("%d\n", maxArea(height, sizeof(height) / sizeof(height[0])));
+}
+
+int main() {
+    maxAreaTest();
+    return 0;
 }

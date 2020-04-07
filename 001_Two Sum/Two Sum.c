@@ -3,7 +3,7 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
-#include "1. Two Sum.h"
+#include "Two Sum.h"
 
 #define SOLUTION 1
 
@@ -36,4 +36,9 @@ void twoSumTest(void) {
     for (int i = 0; i < resSize; ++i) {
         printf("%d\n", *(res + i));
     }
+}
+
+int main() {
+    twoSumTest();
+    return 0;
 }

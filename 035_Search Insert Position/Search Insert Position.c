@@ -2,7 +2,7 @@
 // Created by david on 2020/4/6.
 //
 #include <stdio.h>
-#include "35. Search Insert Position.h"
+#include "Search Insert Position.h"
 
 #define SOLUTION 2
 
@@ -52,4 +52,9 @@ void searchInsertTest(void) {
     int numsTest[] = {1, 3, 5, 6};
     int targetTest = 6;
     printf("%d", searchInsert(numsTest, sizeof(numsTest) / sizeof(numsTest[0]), targetTest));
+}
+
+int main() {
+    searchInsertTest();
+    return 0;
 }

@@ -3,7 +3,7 @@
 //
 
 #include <stdio.h>
-#include "42. Trapping Rain Water.h"
+#include "Trapping Rain Water.h"
 
 #define SOLUTION 1
 
@@ -43,4 +43,9 @@ void trapTest(void) {
     int heightTest[] = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
     int res = trap(heightTest, sizeof(heightTest) / sizeof(heightTest[0]));
     printf("%d\n", res);
+}
+
+int main() {
+    trapTest();
+    return 0;
 }

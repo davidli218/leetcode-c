@@ -2,7 +2,6 @@
 // Created by david on 2020/4/6.
 //
 #include <stdio.h>
-#include "Search Insert Position.h"
 
 #define SOLUTION 2
 

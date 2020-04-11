@@ -3,13 +3,21 @@
 //
 
 #include <stdio.h>
-#include "Trapping Rain Water.h"
 
 #define SOLUTION 1
 
 #if SOLUTION == 1
 
 /* 2020/4/4 4ms 5.8MB */
+int arrayMax(const int *array, int arraySize) {
+    int maxValue = *array;
+    for (int i = 1; i < arraySize; ++i) {
+        if (array[i] > maxValue)
+            maxValue = array[i];
+    }
+    return maxValue;
+}
+
 int trap(int *height, int heightSize) {
     if (heightSize < 3)
         return 0;
@@ -26,15 +34,6 @@ int trap(int *height, int heightSize) {
             drop += (max_r > max_l ? max_l : max_r) - height[i];
     }
     return drop;
-}
-
-int arrayMax(const int *array, int arraySize) {
-    int maxValue = *array;
-    for (int i = 1; i < arraySize; ++i) {
-        if (array[i] > maxValue)
-            maxValue = array[i];
-    }
-    return maxValue;
 }
 
 #endif

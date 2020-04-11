@@ -3,4 +3,4 @@ project(Search_Insert_Position C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Search_Insert_Position "Search Insert Position.c" "Search Insert Position.h")
+add_executable(Search_Insert_Position "Search Insert Position.c")

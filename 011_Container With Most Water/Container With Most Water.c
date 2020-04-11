@@ -3,7 +3,6 @@
 //
 
 #include <stdio.h>
-#include "Container With Most Water.h"
 
 #define SOLUTION 2
 

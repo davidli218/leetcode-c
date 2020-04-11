@@ -3,4 +3,4 @@ project(Container_With_Most_Water C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Container_With_Most_Water "Container With Most Water.c" "Container With Most Water.h")
+add_executable(Container_With_Most_Water "Container With Most Water.c")

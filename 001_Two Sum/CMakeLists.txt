@@ -3,4 +3,4 @@ project(Two_Sum C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Two_Sum "Two Sum.c" "Two Sum.h")
+add_executable(Two_Sum "Two Sum.c")

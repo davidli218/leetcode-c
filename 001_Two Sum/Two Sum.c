@@ -3,7 +3,6 @@
 //
 #include <stdlib.h>
 #include <stdio.h>
-#include "Two Sum.h"
 
 #define SOLUTION 1
 

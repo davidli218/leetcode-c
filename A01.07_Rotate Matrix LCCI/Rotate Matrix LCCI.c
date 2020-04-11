@@ -3,39 +3,20 @@
 //
 #include <stdio.h>
 
-void rotate(int **matrix, int matrixSize, int *matrixColSize) {
+/* 2020/4/8 原地旋转 4ms 6MB */
+void rotate(int (*matrix)[5], int matrixSize, int *matrixColSize) {
+    //void rotate(int** matrix, int matrixSize, int* matrixColSize) in LeetCode
     int temp;
     for (int i = 0; i < 1 + (matrixSize - 1) / 2; ++i) {
         for (int j = 0; j < matrixSize - 2 * i - 1; ++j) {
-            temp = *((int *) matrix + matrixSize * (matrixSize - 1 - i - j) + i);
-            *((int *) matrix + matrixSize * (matrixSize - 1 - i - j) + i) =
-                    *((int *) matrix + matrixSize * (matrixSize - 1 - i) + matrixSize - 1 - i - j);
-            *((int *) matrix + matrixSize * (matrixSize - 1 - i) + matrixSize - 1 - i - j) =
-                    *((int *) matrix + matrixSize * (i + j) + matrixSize - 1 - i);
-            *((int *) matrix + matrixSize * (i + j) + matrixSize - 1 - i) =
-                    *((int *) matrix + matrixSize * i + i + j);
-            *((int *) matrix + matrixSize * i + i + j) = temp;
+            temp = matrix[matrixSize - 1 - i - j][i];
+            matrix[matrixSize - 1 - i - j][i] = matrix[matrixSize - 1 - i][matrixSize - 1 - i - j];
+            matrix[matrixSize - 1 - i][matrixSize - 1 - i - j] = matrix[i + j][matrixSize - 1 - i];
+            matrix[i + j][matrixSize - 1 - i] = matrix[i][i + j];
+            matrix[i][i + j] = temp;
         }
     }
 }
-
-/* 这是LeetCode中通过的版本
- * 上面的代码在LeetCode中报错
- * 这段代码在gcc9.2中出错 */
-//void rotate(int **matrix, int matrixSize, int *matrixColSize) {
-//    int temp;
-//    for (int i = 0; i < 1 + (matrixSize - 1) / 2; ++i) {
-//        for (int j = 0; j < matrixSize - 2 * i - 1; ++j) {
-//            temp = matrix[matrixSize - 1 - i - j][i];
-//            matrix[matrixSize - 1 - i - j][i] =
-//                    matrix[matrixSize - 1 - i][matrixSize - 1 - i - j];
-//            matrix[matrixSize - 1 - i][matrixSize - 1 - i - j] =
-//                    matrix[i + j][matrixSize - 1 - i];
-//            matrix[i + j][matrixSize - 1 - i] = matrix[i][i + j];
-//            matrix[i][i + j] = temp;
-//        }
-//    }
-//}
 
 int main() {
     int matrixTest[5][5] = {
@@ -44,7 +25,7 @@ int main() {
             {13, 3,  6,  7,  26},
             {15, 14, 12, 16, 27},
             {31, 33, 35, 37, 51}};
-    rotate((int **) matrixTest, sizeof(*matrixTest) / sizeof(**matrixTest), 0);
+    rotate(matrixTest, sizeof(*matrixTest) / sizeof(**matrixTest), 0);
     /* 打印结果 */
     for (int i = 0; i < sizeof(*matrixTest) / sizeof(**matrixTest); ++i) {
         for (int j = 0; j < sizeof(*matrixTest) / sizeof(**matrixTest); ++j) {

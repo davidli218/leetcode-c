@@ -9,5 +9,6 @@
 | 14     | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | C          | Easy       |
 | 35     | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position) | C          | Easy       |
 | 42     | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | C, Pthon3  | Hard       |
+| 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | C, Pthon3 | Medium |
 | A01.07 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | C          | Medium     |
 

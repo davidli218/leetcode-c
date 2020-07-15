@@ -2,14 +2,17 @@ cmake_minimum_required(VERSION 3.16)
 project(LeetCode C)
 
 set(CMAKE_C_STANDARD 11)
+set(IGNORE_LIST cmake-build-debug CMakeLists.txt README.md)
 
-add_subdirectory("001_Two Sum")
-add_subdirectory("011_Container With Most Water")
-add_subdirectory("014_Longest Common Prefix")
-add_subdirectory("035_Search Insert Position")
-add_subdirectory("042_Trapping Rain Water")
-add_subdirectory("048_Rotate Image")
-add_subdirectory("283_Move Zeroes")
-add_subdirectory("315_Count of Smaller Numbers After Self")
-add_subdirectory("1290_ Convert Binary Number in a Linked List to Integer")
-add_subdirectory("A01.07_Rotate Matrix LCCI")
+execute_process(
+        COMMAND ls ${PROJECT_SOURCE_DIR}
+        OUTPUT_VARIABLE SUB_DIRS)
+
+string(REPLACE "\n" ";" REPLACE_LIST ${SUB_DIRS})
+
+foreach (DIR ${REPLACE_LIST})
+    list(FIND IGNORE_LIST ${DIR} FLAG)
+    if (FLAG EQUAL -1)
+        add_subdirectory(${PROJECT_SOURCE_DIR}/${DIR})
+    endif ()
+endforeach (DIR ${REPLACE_LIS})

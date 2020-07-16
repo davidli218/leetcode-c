@@ -6,13 +6,13 @@ set(IGNORE_LIST cmake-build-debug CMakeLists.txt README.md)
 
 execute_process(
         COMMAND ls ${PROJECT_SOURCE_DIR}
-        OUTPUT_VARIABLE SUB_DIRS)
+        OUTPUT_VARIABLE ROOT_LIST)
 
-string(REPLACE "\n" ";" REPLACE_LIST ${SUB_DIRS})
+string(REPLACE "\n" ";" “SUB_DIRS” ”${ROOT_LIST}“)
 
-foreach (DIR ${REPLACE_LIST})
+foreach (DIR ${SUB_DIRS})
     list(FIND IGNORE_LIST ${DIR} FLAG)
     if (FLAG EQUAL -1)
         add_subdirectory(${PROJECT_SOURCE_DIR}/${DIR})
     endif ()
-endforeach (DIR ${REPLACE_LIS})
+endforeach ()

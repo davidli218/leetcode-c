@@ -3,11 +3,11 @@
 //
 #include <stdio.h>
 
-#define SOLUTION 2
+#define SOLUTION 3
 
 #if (SOLUTION == 1)
 
-/* 20204/6 二分法 12ms 5.8MB */
+/* 2020/4/6 二分法 12ms 5.8MB */
 int searchInsert(const int *nums, int numsSize, int target) {
     int l = 0;
     int r = numsSize - 1;
@@ -29,7 +29,7 @@ int searchInsert(const int *nums, int numsSize, int target) {
 
 #elif (SOLUTION == 2)
 
-/* 20204/6 二分法 4ms 5.7MB */
+/* 2020/4/6 二分法 4ms 5.7MB */
 int searchInsert(const int *nums, int numsSize, int target) {
     int low = 0, high = numsSize - 1;
     int mid;
@@ -43,6 +43,23 @@ int searchInsert(const int *nums, int numsSize, int target) {
             high = mid - 1;
     }
     return low;
+}
+
+#elif (SOLUTION == 3)
+
+/* 2020/7/17 二分法 4ms 5.5MB */
+int searchInsert(int *nums, int numsSize, int target) {
+    int left = 0, right = numsSize - 1, mid;
+
+    while (left <= right) {
+        mid = (left + right) / 2;
+        if (nums[mid] < target)
+            left = mid + 1;
+        else
+            right = mid - 1;
+    }
+
+    return left;
 }
 
 #endif

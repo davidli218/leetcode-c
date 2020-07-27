@@ -5,6 +5,7 @@
 | #      | Title                                                        | Solution   | Difficulty |
 | ----- | ----------------------------------------------------------- | --------- | --------- |
 | 1      | [两数之和](https://leetcode-cn.com/problems/two-sum)         | C, Python3 | Easy       |
+| 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | C | Easy |
 | 11     | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | C, Python3 | Medium     |
 | 14     | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | C          | Easy       |
 | 35     | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position) | C          | Easy       |

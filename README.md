@@ -12,6 +12,7 @@
 | 42     | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | C, Python3 | Hard       |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | C, Python3 | Medium |
 | 96 | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees) | C | Medium |
+| 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | C | Easy |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | C | Easy |
 | 315 | [计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self) | C | Hard |
 | 392 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence) | C | Easy |

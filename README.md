@@ -15,6 +15,7 @@
 | 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | C | Easy |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | C | Easy |
 | 315 | [计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self) | C | Hard |
+| 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | C | Medium |
 | 392 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence) | C | Easy |
 | 1290 | [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer) | C | Easy |
 | A01.07 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | C          | Medium     |

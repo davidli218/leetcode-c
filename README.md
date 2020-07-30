@@ -1,12 +1,10 @@
 # LeetCode 刷题小本
-![Total Solutions](https://img.shields.io/badge/Total%20Solutions-15-brightgreen?logo=C&logoColor=1e90ff&style=flat)&ensp;
-![Python Solutions](https://img.shields.io/badge/Python%20Solutions-4-brightgreen?logo=Python&logoColor=1e90ff&style=flat)&ensp;
+![Total Solutions](https://img.shields.io/badge/Total%20Solutions-15-brightgreen?logo=C&logoColor=1e90ff&style=flat)
+![Python Solutions](https://img.shields.io/badge/Python%20Solutions-4-brightgreen?logo=Python&logoColor=1e90ff&style=flat)
 ![CMake Version](https://img.shields.io/badge/CMake%20Version-v3.16+-orange?logo=CMake&logoColor=green&style=flat)
 
 ![Last Commit](https://img.shields.io/github/last-commit/davidli218/leetcode_c?logo=Buffer&logoColor=PeachPuff)
 ![Commit Activity](https://img.shields.io/github/commit-activity/m/davidli218/leetcode_c?logo=Concourse&logoColor=PeachPuff)
-
-高中生计算机小白 一日一道 加油！
 
 | #      | Title                                                        | C Solution                                              | Python Solution | Difficulty |
 | ----- | ----------------------------------------------------------- | :-------: | :-------: | --------- |

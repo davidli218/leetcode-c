@@ -1,5 +1,5 @@
 # LeetCode 刷题小本
-![Total Solutions](https://img.shields.io/badge/Total%20Solutions-18-brightgreen?logo=C&logoColor=1e90ff&style=flat)
+![Total Solutions](https://img.shields.io/badge/Total%20Solutions-19-brightgreen?logo=C&logoColor=1e90ff&style=flat)
 ![Python Solutions](https://img.shields.io/badge/Python%20Solutions-4-brightgreen?logo=Python&logoColor=1e90ff&style=flat)
 ![CMake Version](https://img.shields.io/badge/CMake%20Version-v3.16+-orange?logo=CMake&logoColor=green&style=flat)
 
@@ -12,6 +12,7 @@
 | 2 | [两数相加](https://leetcode-cn.com/problems/add-two-numbers) | ✓ |  | Easy |
 | 11     | [盛最多水的容器](https://leetcode-cn.com/problems/container-with-most-water) | ✓ |        ✓        | Medium     |
 | 14     | [最长公共前缀](https://leetcode-cn.com/problems/longest-common-prefix) | ✓ |           | Easy       |
+| 20 | [有效的括号](https://leetcode-cn.com/problems/valid-parentheses) | ✓ | | Easy |
 | 35     | [搜索插入位置](https://leetcode-cn.com/problems/search-insert-position) | ✓ |           | Easy       |
 | 42     | [接雨水](https://leetcode-cn.com/problems/trapping-rain-water) | ✓ |        ✓        | Hard       |
 | 48 | [旋转图像](https://leetcode-cn.com/problems/rotate-image) | ✓ | ✓ | Medium |

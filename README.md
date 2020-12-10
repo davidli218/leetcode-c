@@ -1,5 +1,5 @@
 # LeetCode 刷题小本
-![Total Solutions](https://img.shields.io/badge/Total%20Solutions-19-brightgreen?logo=C&logoColor=1e90ff&style=flat)
+![Total Solutions](https://img.shields.io/badge/Total%20Solutions-20-brightgreen?logo=C&logoColor=1e90ff&style=flat)
 ![Python Solutions](https://img.shields.io/badge/Python%20Solutions-4-brightgreen?logo=Python&logoColor=1e90ff&style=flat)
 ![CMake Version](https://img.shields.io/badge/CMake%20Version-v3.16+-orange?logo=CMake&logoColor=green&style=flat)
 
@@ -25,5 +25,6 @@
 | 392 | [判断子序列](https://leetcode-cn.com/problems/is-subsequence) | ✓ |  | Easy |
 | 415 | [字符串相加](https://leetcode-cn.com/problems/add-strings) | ✓ | | Easy |
 | 733 | [图像渲染](https://leetcode-cn.com/problems/flood-fill) | ✓ | | Easy |
+| 860 | [柠檬水找零](https://leetcode-cn.com/problems/lemonade-change) | ✓ | | Easy |
 | 1290 | [二进制链表转整数](https://leetcode-cn.com/problems/convert-binary-number-in-a-linked-list-to-integer) | ✓ |  | Easy |
 | A01.07 | [旋转矩阵](https://leetcode-cn.com/problems/rotate-matrix-lcci) | ✓ |           | Medium     |

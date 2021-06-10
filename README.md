@@ -1,5 +1,5 @@
 # LeetCode 刷题小本
-![Total Solutions](https://img.shields.io/badge/Total%20Solutions-22-brightgreen?logo=C&logoColor=1e90ff&style=flat)
+![Total Solutions](https://img.shields.io/badge/Total%20Solutions-23-brightgreen?logo=C&logoColor=1e90ff&style=flat)
 ![Python Solutions](https://img.shields.io/badge/Python%20Solutions-4-brightgreen?logo=Python&logoColor=1e90ff&style=flat)
 ![CMake Version](https://img.shields.io/badge/CMake%20Version-v3.16+-orange?logo=CMake&logoColor=green&style=flat)
 
@@ -20,6 +20,7 @@
 | 96 | [不同的二叉搜索树](https://leetcode-cn.com/problems/unique-binary-search-trees) | ✓ |  | Medium |
 | 104 | [二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree) | ✓ |  | Easy |
 | 114 | [二叉树展开为链表](https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list) | ✓ | | Medium |
+| 160 | [相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists) | ✓ | | Easy |
 | 283 | [移动零](https://leetcode-cn.com/problems/move-zeroes) | ✓ |  | Easy |
 | 315 | [计算右侧小于当前元素的个数](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self) | ✓ |  | Hard |
 | 343 | [整数拆分](https://leetcode-cn.com/problems/integer-break) | ✓ |  | Medium |

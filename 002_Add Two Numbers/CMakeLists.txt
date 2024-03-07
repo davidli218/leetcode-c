@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(Add_Two_Numbers C)
+project(add_two_numbers C)
 
 set(CMAKE_C_STANDARD 11)
 

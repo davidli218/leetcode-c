@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
-project(Two_Sum C)
+project(two_sum C)
 
 set(CMAKE_C_STANDARD 11)
 
-add_executable(Two_Sum "Two Sum.c")
+add_executable(two_sum two_sum.c)

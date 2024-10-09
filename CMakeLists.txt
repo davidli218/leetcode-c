@@ -4,10 +4,9 @@ project(LeetCode C)
 
 set(CMAKE_C_STANDARD 11)
 
-file(GLOB SUB_DIR_LIST RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} ${CMAKE_CURRENT_SOURCE_DIR}/*)
+file(GLOB SUBDIRS RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} "[0-9]*/CMakeLists.txt")
 
-foreach (SUB_DIR ${SUB_DIR_LIST})
-    if (EXISTS ${CMAKE_CURRENT_SOURCE_DIR}/${SUB_DIR}/CMakeLists.txt)
-        add_subdirectory(${SUB_DIR})
-    endif ()
+foreach (FILE_PATH ${SUBDIRS})
+    get_filename_component(DIR ${FILE_PATH} DIRECTORY)
+    add_subdirectory(${DIR})
 endforeach ()
